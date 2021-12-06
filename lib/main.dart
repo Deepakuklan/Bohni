@@ -1,7 +1,7 @@
-import 'package:bohni/widgets/status_change.dart';
+
 import 'package:flutter/material.dart';
 
-import 'pages/onbording_page.dart';
+
 import 'widgets/splash_screen.dart';
 
 void main() {

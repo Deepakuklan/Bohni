@@ -103,11 +103,13 @@ class _StepProgressBarState extends State<StepProgressBar> {
                           curve: Curves.linear);
                     },
                   ),
-                  VehicleDetails(onButtonPressed: () {
-                    pageController.animateToPage(2,
-                        duration: const Duration(microseconds: 300),
-                        curve: Curves.linear);
-                  }),
+                  VehicleDetails(
+                    onButtonPressed: () {
+                      pageController.animateToPage(2,
+                          duration: const Duration(microseconds: 300),
+                          curve: Curves.linear);
+                    },
+                  ),
                   UploadDocuments(
                     onButtonPressed: () => pageController.animateToPage(1,
                         duration: const Duration(microseconds: 300),
